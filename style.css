@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "space_monobold";
+  src: url("./fonts/spacemono-bold-webfont.woff2") format("woff2"),
+    url("./fonts/spacemono-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "space_monobold_italic";
+  src: url("./fonts/spacemono-bolditalic-webfont.woff2") format("woff2"),
+    url("./fonts/spacemono-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "latobold";
+  src: url("./fonts/lato-bold-webfont.woff2") format("woff2"),
+    url("./fonts/lato-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "latoregular";
+  src: url("./fonts/lato-regular-webfont.woff2") format("woff2"),
+    url("./fonts/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "press_start_2pregular";
+  src: url("./fonts/pressstart2p-regular-webfont.woff2") format("woff2"),
+    url("./fonts/pressstart2p-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: #52a7e0;
+  font-family: "latobold";
+  text-decoration: none;
+}
+
+body {
+  background-color: #181818;
+  background-image: url(./images/space-bg.webp);
+  background-size: 100vh;
+  margin: 0;
+  animation: shrink 20s infinite alternate;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+button {
+  position: absolute;
+  cursor: pointer;
+  bottom: 0px;
+  z-index: 1;
+  border: solid #a7e052 1px;
+  border-radius: 5px;
+  background: none;
+  color: #a7e052;
+  margin-left: -50px;
+  margin-bottom: 50px;
+  left: 50%;
+  width: 100px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: space_monobold_italic;
+  font-size: 3.5rem;
+}
+
+img {
+  height: 100vh;
+  background-repeat: repeat;
+  z-index: 0;
+}
+
+p,
+button {
+  font-family: latoregular;
+  font-size: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 15px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+#startText {
+  /* position: absolute; */
+  color: #a7e052;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#startText,
+.typed-cursor {
+  color: #a7e052;
+  font-family: latoregular;
+  font-size: 1rem;
+}
+
+.box {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100vh;
+  margin-right: 10px;
+  scroll-snap-align: center;
+}
+
+.box-content {
+  display: flex;
+  color: #a7e052;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box-text {
+  background-color: rgba(59, 59, 59, 0.35);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+@keyframes shrink {
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .box-content {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .box-content {
+    max-width: 600px;
+    margin: auto;
+  }
+}
