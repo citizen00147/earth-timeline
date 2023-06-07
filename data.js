@@ -7,6 +7,7 @@ export const data = [
   {
     heading: "4,600",
     paragraph: "Earth is formed from clumps of dust left over by the sun.",
+    // canvas: "<canvas></canvas>",
   },
   {
     heading: "4,500",

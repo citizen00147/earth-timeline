@@ -16,7 +16,11 @@ export function createBoxes() {
     innerDiv.appendChild(headingElement);
 
     const textElement = document.createElement("p");
-    textElement.className = "box-text";
+    textElement.className = "box-text layer";
     innerDiv.appendChild(textElement);
+
+    // const canvasElement = document.createElement("canvas");
+    // canvasElement.setAttribute("id", "displaySun");
+    // innerDiv.appendChild(canvasElement);
   }
 }

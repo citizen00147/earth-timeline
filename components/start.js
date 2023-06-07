@@ -8,13 +8,13 @@ export function createStartBtn() {
   startBtn.setAttribute("type", "button");
   document.body.appendChild(startBtn);
 
-  const model = document.getElementById("displayModel");
+  const model = document.getElementById("displayEarth");
 
   startBtn.addEventListener("click", () => {
     startBtn.remove();
     model.remove();
     createBoxes();
     addContent();
-    animateText();
+    // animateText();
   });
 }

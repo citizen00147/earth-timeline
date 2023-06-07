@@ -52,8 +52,10 @@ function init() {
 
   // Render model in existing HTML element and make background transparent
 
+  const canvas = document.getElementById("displayEarth");
+
   renderer = new THREE.WebGLRenderer({
-    canvas: displayModel,
+    canvas: canvas,
     alpha: true,
     antialias: true,
   });
