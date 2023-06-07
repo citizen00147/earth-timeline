@@ -1,6 +1,5 @@
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 let camera, scene, renderer;
 
@@ -63,11 +62,6 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   // document.body.appendChild(renderer.domElement);
-
-  // const controls = new OrbitControls(camera, renderer.domElement);
-  // controls.addEventListener("change", render);
-  // controls.target.set(0, 0, 0);
-  // controls.update();
 
   window.addEventListener("resize", onWindowResize);
 }

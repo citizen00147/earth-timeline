@@ -34,12 +34,6 @@
   font-display: swap;
 }
 
-a {
-  color: #52a7e0;
-  font-family: "latobold";
-  text-decoration: none;
-}
-
 body {
   background-color: #181818;
   background-image: url(./images/space-bg.webp);
@@ -70,12 +64,6 @@ button {
 h1 {
   font-family: space_monobold_italic;
   font-size: 3.5rem;
-}
-
-img {
-  height: 100vh;
-  background-repeat: repeat;
-  z-index: 0;
 }
 
 p,
@@ -111,7 +99,6 @@ button {
 .box {
   flex: 0 0 auto;
   width: 100%;
-  height: 100vh;
   margin-right: 10px;
   scroll-snap-align: center;
 }
