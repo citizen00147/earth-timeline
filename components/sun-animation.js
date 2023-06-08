@@ -1,6 +1,5 @@
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 let camera, scene, renderer;
 
@@ -23,7 +22,7 @@ function init() {
   const loader = new GLTFLoader();
   loader.setPath("/images/");
   loader.load("sun-v2.glb", function (gltf) {
-    gltf.scene.scale.set(1, 1, 1);
+    gltf.scene.scale.set(0.5, 0.5, 0.5);
     let sun = gltf.scene;
     scene.add(sun);
 
@@ -40,11 +39,11 @@ function init() {
 
   // Add lighting to model
 
-  //   const amLight = new THREE.AmbientLight(0x000820, 0.2);
-  //   scene.add(amLight);
+  // const amLight = new THREE.AmbientLight(0x000820, 0.2);
+  // scene.add(amLight);
 
-  //   const hemLight = new THREE.HemisphereLight(0xffffff, 0x080820, 1);
-  //   scene.add(hemLight);
+  const hemLight = new THREE.HemisphereLight(0xffffff, 0x080820, 1);
+  scene.add(hemLight);
 
   const pointLight = new THREE.PointLight(0xffffff, 2.5, 700, 1);
   pointLight.position.set(25, 50, 50);
@@ -52,8 +51,10 @@ function init() {
 
   // Render model in existing HTML element and make background transparent
 
+  const canvas = document.getElementById("displaySun");
+
   renderer = new THREE.WebGLRenderer({
-    canvas: displaySun,
+    canvas: canvas,
     alpha: true,
     antialias: true,
   });
@@ -61,11 +62,6 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   // document.body.appendChild(renderer.domElement);
-
-  // const controls = new OrbitControls(camera, renderer.domElement);
-  // controls.addEventListener("change", render);
-  // controls.target.set(0, 0, 0);
-  // controls.update();
 
   window.addEventListener("resize", onWindowResize);
 }

@@ -1,5 +1,3 @@
-import { createBoxes } from "./box";
-import { addContent } from "./content";
 // import { animateText } from "./text-animation";
 
 export function createStartBtn() {
@@ -13,8 +11,6 @@ export function createStartBtn() {
   startBtn.addEventListener("click", () => {
     startBtn.remove();
     model.remove();
-    createBoxes();
-    addContent();
     // animateText();
   });
 }
