@@ -1,5 +1,3 @@
-// import { animateText } from "./text-animation";
-
 export function createStartBtn() {
   const startBtn = document.createElement("button");
   startBtn.textContent = "Start";
@@ -7,10 +5,11 @@ export function createStartBtn() {
   document.body.appendChild(startBtn);
 
   const model = document.getElementById("displayEarth");
+  const text = document.getElementById("startText");
 
   startBtn.addEventListener("click", () => {
     startBtn.remove();
     model.remove();
-    // animateText();
+    text.remove();
   });
 }

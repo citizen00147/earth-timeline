@@ -1,7 +1,15 @@
 import "./style.css";
 import { earthAnimation } from "./components/earth-animation";
 import { coreAnimation } from "./components/core-animation";
-import { sunAnimation } from "./components/sun-animation";
+import { rockAnimation } from "./components/rock-animation";
+import { organismAnimation } from "./components/organism-animation";
+import { volcanoAnimation } from "./components/volcano-animation";
+import { humanAnimation } from "./components/human-animation";
+import { meteorAnimation } from "./components/meteor-animation";
+import { jellyfishAnimation } from "./components/jellyfish-animation";
+import { dinosaurAnimation } from "./components/dinosaur-animation";
 import { createStartBtn } from "./components/start";
+import { animateText } from "./components/text-animation";
 
-createStartBtn();
+animateText();
+setTimeout(createStartBtn, 9000);
