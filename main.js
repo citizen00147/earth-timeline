@@ -3,7 +3,6 @@ import { earthAnimation } from "./components/earth-animation";
 import { coreAnimation } from "./components/core-animation";
 import { rockAnimation } from "./components/rock-animation";
 import { organismAnimation } from "./components/organism-animation";
-import { volcanoAnimation } from "./components/volcano-animation";
 import { humanAnimation } from "./components/human-animation";
 import { meteorAnimation } from "./components/meteor-animation";
 import { jellyfishAnimation } from "./components/jellyfish-animation";

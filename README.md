@@ -28,8 +28,6 @@ Making all of the models became time consuming, so several were found on Sketchf
 
 - Microbe/bacterium model by [Andrew Frueh](https://sketchfab.com/3d-models/bacterium-75ae189551e94d59aedce00104217533) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-- Volcano by [Philipp Urech](https://sketchfab.com/3d-models/taal-volcano-677c86d50219412e9ca0d569af05ace6) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-
 - Meteor by [Maxim Mavrichev](https://sketchfab.com/3d-models/meteor-d3a5a7e9a7d24b76841bf0f49d56a5f3) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 - Jellyfish by [chinabazooka](https://sketchfab.com/3d-models/jellyfish-d93ac9460e8946ce9b33048e4954b0dd) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
