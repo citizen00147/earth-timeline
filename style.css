@@ -34,6 +34,10 @@
   font-display: swap;
 }
 
+a {
+  color: #a7e052;
+}
+
 body {
   background-color: #181818;
   background-image: url(./images/space-bg.webp);
@@ -82,18 +86,13 @@ button {
 }
 
 #startText {
-  /* position: absolute; */
+  position: absolute;
   color: #a7e052;
   top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-#startText,
-.typed-cursor {
-  color: #a7e052;
   font-family: latoregular;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .box {
