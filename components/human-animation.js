@@ -21,8 +21,8 @@ function init() {
 
   const loader = new GLTFLoader();
   loader.setPath("/images/");
-  loader.load("greek_statue_head-v1.glb", function (gltf) {
-    gltf.scene.scale.set(4.5, 4.5, 4.5);
+  loader.load("skull_model-v1.glb", function (gltf) {
+    gltf.scene.scale.set(0.3, 0.3, 0.3);
     let human = gltf.scene;
     scene.add(human);
 
@@ -34,7 +34,7 @@ function init() {
     function animate() {
       requestAnimationFrame(animate);
 
-      human.rotation.y += 0.005;
+      // human.rotation.y += 0.002;
 
       render();
     }

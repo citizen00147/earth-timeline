@@ -33,3 +33,9 @@ Making all of the models became time consuming, so several were found on Sketchf
 - Jellyfish by [chinabazooka](https://sketchfab.com/3d-models/jellyfish-d93ac9460e8946ce9b33048e4954b0dd) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 - Dinosaur fossil by [David Wigforss](https://sketchfab.com/3d-models/dinosaur-3-637d4c8d47264fc8a5e5b72fabb70a33) [(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+- Plant by [Em Marshall](https://sketchfab.com/3d-models/plant-organics-diorama-a99b601e02f741a59524a06fc36b3b6f) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+- Volcano by [Nate Loper](https://sketchfab.com/3d-models/mount-mayon-volcano-in-the-philippines-e561d9e171a04f60819ce27bafa6ee2f) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+- Fish by [Aleksey Grishchenko](https://sketchfab.com/3d-models/groenlandaspis-aafb857e1fb14115a7d86b1669881263) [(CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)

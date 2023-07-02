@@ -7,6 +7,9 @@ import { humanAnimation } from "./components/human-animation";
 import { meteorAnimation } from "./components/meteor-animation";
 import { jellyfishAnimation } from "./components/jellyfish-animation";
 import { dinosaurAnimation } from "./components/dinosaur-animation";
+import { plantAnimation } from "./components/plant-animation";
+import { volcanoAnimation } from "./components/volcano-animation";
+import { fishAnimation } from "./components/fish-animation";
 import { createStartBtn } from "./components/start";
 import { animateText } from "./components/text-animation";
 

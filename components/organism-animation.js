@@ -22,9 +22,14 @@ function init() {
   const loader = new GLTFLoader();
   loader.setPath("/images/");
   loader.load("organism_model-v1.glb", function (gltf) {
-    gltf.scene.scale.set(0.2, 0.2, 0.2);
+    gltf.scene.scale.set(0.15, 0.15, 0.15);
     let organism = gltf.scene;
     scene.add(organism);
+
+    let box = new THREE.Box3().setFromObject(organism);
+    let center = new THREE.Vector3();
+    box.getCenter(center);
+    organism.position.sub(center); // center the model
 
     function animate() {
       requestAnimationFrame(animate);
