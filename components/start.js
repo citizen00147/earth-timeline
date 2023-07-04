@@ -11,5 +11,7 @@ export function createStartBtn() {
     startBtn.remove();
     model.remove();
     text.remove();
+
+    localStorage.setItem("introSkipped", "true");
   });
 }

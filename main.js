@@ -13,5 +13,9 @@ import { fishAnimation } from "./components/fish-animation";
 import { createStartBtn } from "./components/start";
 import { animateText } from "./components/text-animation";
 
-animateText();
-setTimeout(createStartBtn, 9000);
+if (localStorage.getItem("introSkipped") === "true") {
+  setTimeout(createStartBtn, 0);
+} else {
+  animateText();
+  setTimeout(createStartBtn, 9000);
+}
