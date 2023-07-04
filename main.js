@@ -10,6 +10,7 @@ import { dinosaurAnimation } from "./components/dinosaur-animation";
 import { plantAnimation } from "./components/plant-animation";
 import { volcanoAnimation } from "./components/volcano-animation";
 import { fishAnimation } from "./components/fish-animation";
+import { cloudAnimation } from "./components/cloud-animation";
 import { createStartBtn } from "./components/start";
 import { animateText } from "./components/text-animation";
 

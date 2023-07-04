@@ -18,11 +18,11 @@ I thought 3D models of Earth, its layers, and other objects would make for a mor
 
 I researched how to import models into JavaScript and landed on [three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). Being able to easily animate and add lighting to a scene is a huge plus, and it opened up a lot of possibilies to improve this project.
 
-It's still very much in development; many of the models have been made but are not implemented yet. I have a roadmap outlined [here](https://github.com/users/citizen00147/projects/2)
+I have a roadmap outlined [here](https://github.com/users/citizen00147/projects/2)
 
 ### Credits
 
-Making all of the models became time consuming, so several were found on Sketchfab.
+Making all of the models became time consuming, so several were found on Sketchfab:
 
 - Space rock model by [d880](https://sketchfab.com/3d-models/space-rocks-a9883c483bc1453589f402a623ebe83f) [(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -38,4 +38,6 @@ Making all of the models became time consuming, so several were found on Sketchf
 
 - Volcano by [Nate Loper](https://sketchfab.com/3d-models/mount-mayon-volcano-in-the-philippines-e561d9e171a04f60819ce27bafa6ee2f) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-- Fish by [Aleksey Grishchenko](https://sketchfab.com/3d-models/groenlandaspis-aafb857e1fb14115a7d86b1669881263) [(CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- Fish by [Aleksey Grishchenko](https://sketchfab.com/3d-models/groenlandaspis-aafb857e1fb14115a7d86b1669881263) [(CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+- Cloud by [Andrea Marziano](https://sketchfab.com/3d-models/cloud-test-6d1fff581b3a424d88ee2125f909f3f3) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
